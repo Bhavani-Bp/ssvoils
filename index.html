@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="description"
+    content="SSV Oils - Premium quality sunflower, olive, sesame, mustard, and groundnut oils. Also offering pure turmeric and red chilli powder." />
+  <title>SSV Oils | Premium Healthy Oils & Spices</title>
+</head>
+
+<body>
+  <!-- Splash Screen -->
+  <div id="splash-screen">
+    <div class="splash-content">
+      <img src="/logo.png" alt="SSV Oils Logo" class="splash-logo-img">
+      <div class="splash-loader"></div>
+      <p class="splash-tagline">Purity in Every Drop</p>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header id="header" class="glass">
+    <div class="container header-inner">
+      <a href="#home" class="logo">
+        <img src="/logo.png" alt="SSV OILS" class="header-logo-img">
+      </a>
+      <nav class="desktop-nav">
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#about">About</a>
+      </nav>
+      <div class="header-actions">
+        <button id="cart-btn" class="cart-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="9" cy="21" r="1"></circle>
+            <circle cx="20" cy="21" r="1"></circle>
+            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+          </svg>
+          <span id="cart-count">0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="app">
+    <!-- Hero Section -->
+    <section id="hero">
+      <div class="hero-content container">
+        <h2 class="hero-title">Experience the <br /><span class="text-gold italic">Purest Quality</span></h2>
+        <p class="hero-subtitle">Premium Oils & Spices for your healthy kitchen.</p>
+        <a href="#products" class="btn-primary">Shop Now</a>
+      </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="container">
+      <h2 class="section-title">Our Premium Selection</h2>
+      <div id="product-grid" class="product-grid">
+        <!-- Products will be injected here -->
+      </div>
+    </section>
+  </main>
+
+  <!-- Cart Drawer -->
+  <div id="cart-drawer" class="drawer">
+    <div class="drawer-overlay"></div>
+    <div class="drawer-content">
+      <div class="drawer-header">
+        <h3>Your Cart</h3>
+        <button class="close-drawer">&times;</button>
+      </div>
+      <div id="cart-items" class="cart-items">
+        <!-- Cart items will be injected here -->
+        <div class="empty-cart-msg">Your cart is empty</div>
+      </div>
+
+      <!-- Checkout Form -->
+      <div id="checkout-form" class="checkout-form">
+        <div class="checkout-steps">
+          <div class="step"><span>1</span> Delivery Details</div>
+        </div>
+        <div class="form-group">
+          <label for="cust-name">Full Name</label>
+          <input type="text" id="cust-name" placeholder="Enter your full name" required>
+        </div>
+        <div class="form-group">
+          <label for="cust-address">Delivery Address</label>
+          <textarea id="cust-address" placeholder="House no, Street, Landmark, Phone number" rows="3"
+            required></textarea>
+        </div>
+      </div>
+
+      <div class="drawer-footer">
+        <div class="checkout-steps">
+          <div class="step"><span>2</span> Confirm via WhatsApp</div>
+        </div>
+        <div class="cart-total">
+          <span>Total:</span>
+          <span id="cart-total-amount">₹0</span>
+        </div>
+        <button id="order-whatsapp" class="btn-whatsapp">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="margin-right: 8px;">
+            <path
+              d="M12.031 6.172c-3.181 0-5.767 2.586-5.767 5.767 0 1.267.405 2.436 1.096 3.389l-.72 2.632 2.698-.708c.816.516 1.774.819 2.802.819 3.181 0 5.767-2.586 5.767-5.767 0-3.181-2.586-5.767-5.767-5.767zm3.39 8.235s-.466.225-1.074-.055c-.571-.281-1.395-.823-1.899-1.327-.503-.503-1.045-1.328-1.327-1.899-.28-.608-.055-1.074-.055-1.074s.114-.144.17-.221c.055-.078.093-.117.132-.194.039-.078.019-.155-.01-.214-.029-.058-.262-.631-.359-.864-.093-.225-.19-.191-.262-.191h-.224c-.078 0-.204.029-.311.146-.107.117-.408.399-.408.971s.418 1.127.476 1.205c.058.078.822 1.254 1.992 1.751.282.119.502.19.673.245.282.09.54.077.744.047.228-.034.701-.286.8-.564.098-.277.098-.515.068-.564-.03-.048-.107-.078-.224-.136zM12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2z" />
+          </svg>
+          Order Now
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
