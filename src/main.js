@@ -218,7 +218,7 @@ orderWhatsappBtn.addEventListener('click', (e) => {
     return;
   }
 
-  const phoneNumber = '8328628506';
+  const phoneNumber = '918328628506';
   const total = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
 
   // Build WhatsApp Message
