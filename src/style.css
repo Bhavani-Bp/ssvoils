@@ -320,7 +320,7 @@ button {
   align-items: center;
   position: relative;
   overflow: hidden;
-  background: linear-gradient(to right, rgba(4, 27, 21, 0.95) 40%, rgba(4, 27, 21, 0.4)), url('https://images.unsplash.com/photo-1543083477-4f7f4b0f9d2d?auto=format&fit=crop&q=80&w=2000');
+  background: linear-gradient(to right, rgba(4, 27, 21, 0.95) 40%, rgba(4, 27, 21, 0.4)), url('/images/hero.png');
   background-size: cover;
   background-position: center;
 }

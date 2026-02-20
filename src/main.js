@@ -2,12 +2,12 @@ import './style.css'
 
 // Product Data
 const PRODUCTS = [
-  { id: 1, name: 'Sunlight Sunflower Oil', category: 'Health & Wellness', price: 180, image: './assets/sunflower.png' },
-  { id: 2, name: 'Heritage Olive Oil', category: 'Imported Premium', price: 950, image: './assets/olive.png' },
-  { id: 3, name: 'Traditional Sesame Oil', category: 'Local Extraction', price: 450, image: './assets/sesame.png' },
-  { id: 4, name: 'Rustic Mustard Oil', category: 'Spicy & Pure', price: 210, image: './assets/sunflower.png' },
-  { id: 5, name: 'Golden Groundnut Oil', category: 'Cold Pressed', price: 240, image: './assets/sesame.png' },
-  { id: 6, name: 'Premium Red Chilli Powder', category: 'Indian Spices', price: 120, image: '/images/turmeric.jpg' },
+  { id: 1, name: 'Sunlight Sunflower Oil', category: 'Health & Wellness', price: 180, image: '/images/sunflower.png' },
+  { id: 2, name: 'Heritage Olive Oil', category: 'Imported Premium', price: 950, image: '/images/olive.png' },
+  { id: 3, name: 'Traditional Sesame Oil', category: 'Local Extraction', price: 450, image: '/images/sesame.png' },
+  { id: 4, name: 'Rustic Mustard Oil', category: 'Spicy & Pure', price: 210, image: '/images/sunflower.png' },
+  { id: 5, name: 'Golden Groundnut Oil', category: 'Cold Pressed', price: 240, image: '/images/groundnut.png' },
+  { id: 6, name: 'Premium Red Chilli Powder', category: 'Indian Spices', price: 120, image: '/images/chilli.png' },
   { id: 7, name: 'Pure Turmeric Powder', category: 'Health Spices', price: 80, image: '/images/turmeric.jpg' },
 ];
 
